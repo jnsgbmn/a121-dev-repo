@@ -9,157 +9,160 @@ import pic6 from "../images/pic6.webp";
 const Projects = () => {
   return (
     <React.Fragment>
-      s
-      <div className=" justify-center">
-        <h1 className="flex justify-center md:text-2xl sm:text-3xl font-h1  py-2 lg:justify-start">
-          Projects
-        </h1>
+      <div class="relative items-center w-full px-5 pb-12 mx-auto my-12 md:px-12 lg:px-16 max-w-7xl">
+        <img class="w-full bg-gray-300 " src={pic3} alt="" />
       </div>
-      <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
-        <div class="container mx-auto">
-          <div class="-mx-4 flex flex-wrap">
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mx-auto mb-10 max-w-[370px]">
-                <div class="mb-8 overflow-hidden rounded">
-                  <img src={pic1} alt="/" class="w-full h-[225px]" />
-                </div>
-                <div>
-                  <button class="bg-gray-200  mb-5 inline-block  py-1 px-4 text-center text-xs font-semibold leading-loose text-black">
-                    Find out
-                  </button>
-                  <h3>
-                    <a
-                      href="/"
-                      class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
-                    >
-                      Cebu DITO Office Fit-out
-                    </a>
-                  </h3>
-                  <p class="text-body-color text-base">
-                    Office for the Regional Staffs
-                  </p>
-                </div>
-              </div>
+      <section>
+        <div class="flex flex-col justify-center flex-1 px-8 py-8 mx-auto lg:py-24 md:px-12 lg:flex-none lg:px-24 max-w-7xl">
+          <div class="max-w-2xl">
+            <div>
+              <p class="text-5xl tracking-tight text-black ">
+                I am a slightly longer heading than the others
+              </p>
+              <p class="max-w-xl mt-4 text-lg tracking-tight text-gray-600">
+                If you could kick the person in the pants responsible for most
+                of your trouble, you wouldn't sit for a month
+              </p>
             </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mx-auto mb-10 max-w-[370px]">
-                <div class="mb-8 overflow-hidden rounded">
-                  <img alt="/" src={pic2} class="w-full h-[225px]" />
-                </div>
-                <div>
-                  <button class="bg-gray-200  mb-5 inline-block  py-1 px-4 text-center text-xs font-semibold leading-loose text-black">
-                    Find out
-                  </button>
-                  <h3>
-                    <a
-                      href="/"
-                      class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
-                    >
-                      DITO Stores Davao
-                    </a>
-                  </h3>
-                  <p class="text-body-color text-base">
-                    Product Store, Customer Service
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mx-auto mb-10 max-w-[370px]">
-                <div class="mb-8 overflow-hidden rounded">
-                  <img src={pic3} alt="/" class="w-full h-[225px]" />
-                </div>
-                <div>
-                  <button class="bg-gray-200  mb-5 inline-block  py-1 px-4 text-center text-xs font-semibold leading-loose text-black">
-                    Find out
-                  </button>
-                  <h3>
-                    <a
-                      href="/"
-                      class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
-                    >
-                      High-end Residence
-                    </a>
-                  </h3>
-                  <p class="text-body-color text-base">
-                    Advance/Elegant House at Prime Estate
-                  </p>
-                </div>
+          </div>
+          <div class="mx-auto mt-12 text-left">
+            <h2 class="sr-only">intro.</h2>
+            <div>
+              <div class="grid grid-cols-1 text-sm gap-x-2 gap-y-14 lg:grid-cols-2 lg:gap-36">
+                <article>
+                  <div class="space-y-3">
+                    <div class="gap-2 lg:inline-flex lg:items-center"></div>
+                    <p class="mt-2 text-base text-gray-500">
+                      With the ability to share code, track changes and provide
+                      feedback, you'll be able to complete projects faster.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <div class="space-y-3">
+                    <div class="gap-2 lg:inline-flex lg:items-center"></div>
+                    <p class="mt-2 text-base text-gray-500">
+                      That's why we've made our SaaS programming product
+                      available at a price that's affordable for everyone
+                    </p>
+                  </div>
+                </article>
               </div>
             </div>
           </div>
         </div>
-        <div class="container mx-auto mt-[130px]">
-          <div class="-mx-4 flex flex-wrap">
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mx-auto mb-10 max-w-[370px]">
-                <div class="mb-8 overflow-hidden rounded">
-                  <img alt="/" src={pic4} class="w-full h-[225px]" />
-                </div>
-                <div>
-                  <button class="bg-gray-200  mb-5 inline-block  py-1 px-4 text-center text-xs font-semibold leading-loose text-black">
-                    Find out
-                  </button>
-                  <h3>
-                    <a
-                      href="/"
-                      class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
-                    >
-                      Barangay Water System
-                    </a>
-                  </h3>
-                  <p class="text-body-color text-base">
-                    Potable Water System Level II
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mx-auto mb-10 max-w-[370px]">
-                <div class="mb-8 overflow-hidden rounded">
-                  <img src={pic5} alt="/" class="w-full h-[225px]" />
-                </div>
-                <div>
-                  <button class="bg-gray-200  mb-5 inline-block  py-1 px-4 text-center text-xs font-semibold leading-loose text-black">
-                    Find out
-                  </button>
-                  <h3>
-                    <a
-                      href="/"
-                      class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
-                    >
-                      Lebak/Maitum Land Transport Terminal
-                    </a>
-                  </h3>
-                  <p class="text-body-color text-base">
-                    High-end Intermodal Terminal
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mx-auto mb-10 max-w-[370px]">
-                <div class="mb-8 overflow-hidden rounded">
-                  <img alt="/" src={pic6} class="w-full h-[225px]" />
-                </div>
-                <div>
-                  <button class="bg-gray-200  mb-5 inline-block  py-1 px-4 text-center text-xs font-semibold leading-loose text-black">
-                    Find out
-                  </button>
-                  <h3>
-                    <a
-                      href="/"
-                      class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
-                    >
-                      Maitum Road Construction
-                    </a>
-                  </h3>
-                  <p class="text-body-color text-base">
-                    Community Road Access.
-                  </p>
-                </div>
-              </div>
-            </div>
+      </section>
+      <section class="flex items-center w-full bg-white">
+        <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-20 max-w-7xl">
+          <div class="grid grid-cols-2 gap-6 py-12 md:grid-cols-3">
+            <figure>
+              <img
+                class="h-[250px] w-full bg-gray-200 "
+                src={pic1}
+                alt=""
+                width="1310"
+                height="873"
+              />
+
+              <p class="mt-5 text-lg font-medium leading-6 text-black">
+                Pink dreams
+              </p>
+              <p class="mt-3 text-base text-gray-500">
+                Your design portfolio website shouldn’t just be a portfolio, it
+                should also be a sales tool.
+              </p>
+            </figure>
+            <figure>
+              <img
+                class=" h-[250px] w-full bg-gray-200 "
+                src={pic2}
+                alt=""
+                width="1310"
+                height="873"
+              />
+
+              <p class="mt-5 text-lg font-medium leading-6 text-black">
+                Lavender ender
+              </p>
+              <p class="mt-3 text-base text-gray-500">
+                Your design portfolio website shouldn’t just be a portfolio, it
+                should also be a sales tool.
+              </p>
+            </figure>
+            <figure>
+              <img
+                class="h-[250px] w-full bg-gray-200 "
+                src={pic3}
+                alt=""
+                width="1310"
+                height="873"
+              />
+
+              <p class="mt-5 text-lg font-medium leading-6 text-black">
+                Smurf life
+              </p>
+              <p class="mt-3 text-base text-gray-500">
+                Your design portfolio website shouldn’t just be a portfolio, it
+                should also be a sales tool.
+              </p>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section class="flex items-center w-full bg-white">
+        <div class="relative items-center w-full px-5  mx-auto md:px-12 lg:px-20 max-w-7xl">
+          <div class="grid grid-cols-2 gap-6 py-12 md:grid-cols-3">
+            <figure>
+              <img
+                class="h-[250px] w-full bg-gray-200 "
+                src={pic4}
+                alt=""
+                width="1310"
+                height="873"
+              />
+
+              <p class="mt-5 text-lg font-medium leading-6 text-black">
+                Pink dreams
+              </p>
+              <p class="mt-3 text-base text-gray-500">
+                Your design portfolio website shouldn’t just be a portfolio, it
+                should also be a sales tool.
+              </p>
+            </figure>
+            <figure>
+              <img
+                class=" h-[250px] w-full bg-gray-200 "
+                src={pic5}
+                alt=""
+                width="1310"
+                height="873"
+              />
+
+              <p class="mt-5 text-lg font-medium leading-6 text-black">
+                Lavender ender
+              </p>
+              <p class="mt-3 text-base text-gray-500">
+                Your design portfolio website shouldn’t just be a portfolio, it
+                should also be a sales tool.
+              </p>
+            </figure>
+            <figure>
+              <img
+                class="h-[250px] w-full bg-gray-200 "
+                src={pic6}
+                alt=""
+                width="1310"
+                height="873"
+              />
+
+              <p class="mt-5 text-lg font-medium leading-6 text-black">
+                Smurf life
+              </p>
+              <p class="mt-3 text-base text-gray-500">
+                Your design portfolio website shouldn’t just be a portfolio, it
+                should also be a sales tool.
+              </p>
+            </figure>
           </div>
         </div>
       </section>

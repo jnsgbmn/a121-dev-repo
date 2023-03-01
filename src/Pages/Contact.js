@@ -99,7 +99,7 @@ const contact = () => {
           />
 
           <input
-            class=" bg-gray-200 py-3 px-5 text-sm font-medium text-center text-black   bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            class=" cursor-pointer rounded-md bg-gray-200 py-3 px-5 text-sm font-medium text-center text-black   bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
             value="Send"
             type="submit"
           />
