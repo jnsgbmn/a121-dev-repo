@@ -4,9 +4,9 @@ import Home from "../Pages/Home";
 import Contact from "../Pages/Contact";
 import Projects from "../Pages/Projects";
 import History from "../Pages/History";
-import Construction from "../Pages/Construction";
+// import Construction from "../Pages/Construction";
 import Restoration from "../Pages/Restoration";
-import Design from "../Pages/Design";
+// import Design from "../Pages/Design";
 
 const Navpages = () => {
   return (
@@ -17,9 +17,9 @@ const Navpages = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/history" element={<History />} />
-          <Route path="/construction" element={<Construction />} />
+          {/* <Route path="/construction" element={<Construction />} /> */}
           <Route path="/restoration" element={<Restoration />} />
-          <Route path="/design" element={<Design />} />
+          {/* <Route path="/design" element={<Design />} /> */}
         </Routes>
       </div>
     </React.Fragment>

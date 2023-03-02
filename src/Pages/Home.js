@@ -1,8 +1,6 @@
 import React from "react";
 import hero from "../images/hero.png";
-
 import img4 from "../images/1.png";
-
 import img5 from "../images/plumber (1).png";
 
 const Home = () => {
