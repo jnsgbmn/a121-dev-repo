@@ -5,6 +5,7 @@ import pic3 from "../images/pic3.webp";
 import pic4 from "../images/pic4.webp";
 import pic5 from "../images/pic5.webp";
 import pic6 from "../images/pic6.webp";
+import pic7 from "../images/pic7.webp";
 
 const Projects = () => {
   return (
@@ -150,6 +151,23 @@ const Projects = () => {
               <img
                 class="h-[250px] w-full bg-gray-200 "
                 src={pic6}
+                alt=""
+                width="1310"
+                height="873"
+              />
+
+              <p class="mt-5 text-lg font-medium leading-6 text-black">
+                Smurf life
+              </p>
+              <p class="mt-3 text-base text-gray-500">
+                Your design portfolio website shouldn’t just be a portfolio, it
+                should also be a sales tool.
+              </p>
+            </figure>
+            <figure>
+              <img
+                class="h-[250px] w-full bg-gray-200 "
+                src={pic7}
                 alt=""
                 width="1310"
                 height="873"

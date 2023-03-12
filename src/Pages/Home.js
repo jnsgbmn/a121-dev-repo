@@ -20,7 +20,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div class="bg-[#E6F7F2] relative flex items-center w-full ">
+        <div class="bg-[#F3E8D9] relative flex items-center w-full ">
           <div class="relative items-center w-full px-5 py-5 mx-auto md:px-12 lg:px-16 max-w-7xl">
             <div class="relative flex-col items-start m-auto align-middle">
               <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
