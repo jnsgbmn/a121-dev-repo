@@ -20,7 +20,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div class="bg-[#F3E8D9] relative flex items-center w-full ">
+        <div class="bg-white relative flex items-center w-full ">
           <div class="relative items-center w-full px-5 py-5 mx-auto md:px-12 lg:px-16 max-w-7xl">
             <div class="relative flex-col items-start m-auto align-middle">
               <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
@@ -70,6 +70,50 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <section class="bg-[#F3E8D9]  relative flex items-center w-full">
+          <div class="relative items-center w-full mx-auto  ">
+            <div class="relative flex-col items-start m-auto align-middle">
+              <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
+                <div class="relative items-center gap-12 m-auto lg:inline-flex">
+                  <div class="max-w-xl text-center lg:text-left">
+                    <div>
+                      <p class=" font-h1 text-2xl font-medium tracking-tighter text-black sm:text-4xl">
+                        I am a short heading
+                      </p>
+                      <p class="max-w-xl mt-4 text-base tracking-tight text-gray-600">
+                        Use this paragraph to share information about your
+                        company or products. Make it engaging and interesting,
+                        and showcase your brand's personality. Thanks for
+                        visiting our website!
+                      </p>{" "}
+                    </div>
+                    <div class="flex justify-center gap-3 mt-10 lg:justify-start">
+                      <a
+                        class="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
+                        href="#"
+                      >
+                        <span>Read more</span>
+                        <ion-icon
+                          class="flex-none w-3 h-3 ml-3 fill-blue-600 group-active:fill-current md hydrated"
+                          name="arrow-forward-outline"
+                          role="img"
+                          aria-label="arrow forward outline"
+                        ></ion-icon>
+                      </a>{" "}
+                    </div>
+                  </div>
+                </div>
+                <div class="order-first block w-full mt-12 aspect-square lg:mt-0 lg:order-first">
+                  <img
+                    class="h-full object-cover object-center w-full mx-autolg:ml-auto"
+                    alt="hero"
+                    src={img4}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <section>
           <div class="relative items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-16 max-w-7xl">
@@ -165,51 +209,6 @@ const Home = () => {
                       </div>
                     </li>
                   </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="bg-[#F3E8D9] mb-[300px]  relative flex items-center w-full">
-          <div class="relative items-center w-full mx-auto  ">
-            <div class="relative flex-col items-start m-auto align-middle">
-              <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
-                <div class="relative items-center gap-12 m-auto lg:inline-flex">
-                  <div class="max-w-xl text-center lg:text-left">
-                    <div>
-                      <p class=" font-h1 text-2xl font-medium tracking-tighter text-black sm:text-4xl">
-                        I am a short heading
-                      </p>
-                      <p class="max-w-xl mt-4 text-base tracking-tight text-gray-600">
-                        Use this paragraph to share information about your
-                        company or products. Make it engaging and interesting,
-                        and showcase your brand's personality. Thanks for
-                        visiting our website!
-                      </p>{" "}
-                    </div>
-                    <div class="flex justify-center gap-3 mt-10 lg:justify-start">
-                      <a
-                        class="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
-                        href="#"
-                      >
-                        <span>Read more</span>
-                        <ion-icon
-                          class="flex-none w-3 h-3 ml-3 fill-blue-600 group-active:fill-current md hydrated"
-                          name="arrow-forward-outline"
-                          role="img"
-                          aria-label="arrow forward outline"
-                        ></ion-icon>
-                      </a>{" "}
-                    </div>
-                  </div>
-                </div>
-                <div class="order-first block w-full mt-12 aspect-square lg:mt-0 lg:order-first">
-                  <img
-                    class="h-full object-cover object-center w-full mx-autolg:ml-auto"
-                    alt="hero"
-                    src={img4}
-                  />
                 </div>
               </div>
             </div>

@@ -164,23 +164,6 @@ const Projects = () => {
                 should also be a sales tool.
               </p>
             </figure>
-            <figure>
-              <img
-                class="h-[250px] w-full bg-gray-200 "
-                src={pic7}
-                alt=""
-                width="1310"
-                height="873"
-              />
-
-              <p class="mt-5 text-lg font-medium leading-6 text-black">
-                Smurf life
-              </p>
-              <p class="mt-3 text-base text-gray-500">
-                Your design portfolio website shouldn’t just be a portfolio, it
-                should also be a sales tool.
-              </p>
-            </figure>
           </div>
         </div>
       </section>
